@@ -1,0 +1,64 @@
+html, body {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-bg-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  color: #001b33;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  margin: 0px 0px auto;
+  background-color: #000;
+}
+
+img {
+  width: 100% auto;
+  height: 100% auto;
+  object-fit: contain;
+}
+
+.home {
+  width: 1553px;
+  height: 890px;
+  border-radius: 25px;
+  border: solid 1px #eee;
+  background: url('https://landerpop.s3.us-east-1.amazonaws.com/Welcome.png');
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide {
+  margin-top:120px;
+  width: 75%;
+  height: 650px;
+  border: solid 1px #000;
+  background-color: rgba(255,255,255, .8);
+  border-radius: 20px;
+}
